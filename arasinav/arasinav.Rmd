@@ -1,0 +1,65 @@
+---
+title: "Yoksulluk ve İşsizlik"
+author: 
+  -Serdar Ulusoy [^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 19080248, [Github Repo](https://github.com/serdarulusoy00/statistics_vizeodevi.git)
+
+
+
+
+
+# Giriş
+Yoksulluk kişinin kendisi için olduğu kadar bulunduğu çevreyi, sosyo-ekonomik açıdan etkileyen, insanların tarihsel süreçte yapı taşlarından biri olduğu bu toplumların temel sorunlarından biridir. Bu olguları ele alırken yoksulluğu tek başına işlemeye çalışmak bilimsel açıdan eksikliğe sebep olabilir.  Psikolojik, sosyolojik ve ekonomik etkilerinin yanında; insan hakları yönünden incelenen bir olgu olan yoksulluk kavramı, sosyal bilimler araştırmalarının her alanıyla temas edebilmektedir. Yoksulluğun oluşmasında işssizlik kavramı bütün ekonomilerin başlı başına sorunudur. Bu iki kavram birbiriyle korelasyon içindedir. Ekonomistlerin, gelir ve refahın bireylerin eğitim durumuyla ilişkilendirdiği çalışmaların temelinde toplumlun içindeki insanların yoksulluktan kaynaklanan sınıf ayrımını sorgulama durumu vardır. İstihdam, eğitim politikaları yoksulluk ve işsizliği çözmek üzerine geliştirilir.   
+
+
+
+
+## Çalışmanın Amacı
+Yoksulluk ve işsizlik olgularını istatistiksel açıdan incelemeye çalışmak ,verilerin ışığında eğitim ve işssizliğin birbirilerini nasıl etkilediğini görürüz. Veriler günümüzde global firma ve işletmelerin stratejilerini oluşturur. bu bağlamda bireylerin gelirleri doğrultusunda sosyo-kültürel seviyesini oluşturduğunu görmeye çalışacağız. Ekonomik gelişmişliğin önemli göstergelerinden birisi eğitim seviyesinin yüksekliğidir bu açıklamalardan hareketle çalışmamızın amacı günlük hayatta soyut hale gelen bu kavramları istatistiklerle somut hale getirmektir.
+
+## Literatür Taraması
+Eğitimin beklenen ikinci en önemli bireysel getirisi; eğitim seviyesi yükseldikçe gelir seviyesinin yükselmesi olarak tanımlanmaktadır.[@ccalicskan2007eugitim]. Yoksulluk ve işsizlik üzerine yapılan çalışmaların odak noktası gelir eşitsizliğidir, çalıştığı alanda istikrar yakalayan bireylerin iş hayatındaki aktif çalışması uzayacağı gibi kazançları da devamlılık yüzünden artacaktır. Göreli yoksulluk, Adam Smith’e göre; temel ihtiyaçlarını karşılayabilen, ancak kişisel kaynakların yetersizliği yüzünden toplumun genel refah düzeyinin altında kalan ve topluma sosyal açıdan katılımları engellenmiş olan kişileri ifade etmektedir. [@kayatacsyoksullukla]. Burada vurgulanmak istenen bireylerin yoksulluğunun değişken olduğudur. Temel ihtiyaçları karşılayabilecek kadar gelirin olması toplumun genel hayat standartlarının altında bir yaşama denk gelebilir. Eğer, bireylerin bilgi, beceri ve tutumlarında istenilen yönde bir değişiklik gerçekleşmemişse; ya da istenildiği düzeyde gerçekleşmemiş ise eğitim sürecinin öğrenme ile sonuçlanmadığı, yani başarısız olduğu kabul edilir [@ccalicskan2007eugitim]. Bireylerin yetişmesinde önemli faktör teşkil eden eğitim politikaları bireylerin harcamalarından tutumlarına kadar yön vereceğini belirtilmiştir. Uygulanan eğitim sisteminin yetersizliği işsizliğe ve yoksulluğa yol açacağı çıkarımında bulunabiliriz. Türkiye İstatistik Kurumunun [@sayimmertissizlik] 2004 Yoksulluk Çalışması verileri ülkede yoksulluğun özellikle eğitim düzeyi düşük olanlar, yevmiyeliler, ücretsiz aile işçileri, işsizler ve tarım, inşaat sektöründe çalışanlar arasında yaygın olduğunu göstermektedir. 
+
+ 
+
+[@gokcce2005ilkougretim] İşsizliği yapısal, friksiyonel ve devrevi olarak inceleyebiliriz.Devletler için işsizliğin neden kaynaklandığını gösteren veriler bu başlıklar altında tasnif edilir. Yoksulluk ve işsizliğin yol açtığı mental sorunlar, finansal gerginliğin psikolojiye yansımasıdır [@weich1998poverty]. OECD ülkelerinde yapılan mutluluk endeksi raporlarında baz alınan verilerden elde edilen sonuçların arka planında, eğitim kalitesi düşük ülkeler, işsizlik, yoksulluk ve buradan hareketle psikolojisi çöken bireyler ve toplumlar görülür. Yüksek yoksulluk, ekonomik kalkınmayı gerçekleştirme maliyetlerinin daha büyük olmasına ve ekonomik kalkınmayı engellemesine neden olur [@choirur2021effect]. Ekonomik kalkınmayı hedefleyen ülkelerin başlıca sorunlarından biri olduğuna ulaşabiliriz bu açıklamadan hareketle amaçlanan ekonomik büyümeler hedeflerine ulaşmayabilir. Ülkeler maliye politikalarını uygularken ,kontrol altında tutmaya çalıştıkları parametreleri ekonomik büyümeyi gerçekleştirecek şekilde uygulamayı hedeflerler. Bu hedefler de işsizliği ve yoksulluğu azaltmaya yönelik olur. 
+
+
+
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
